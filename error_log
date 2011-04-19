@@ -1,0 +1,8 @@
+[02-Jan-2011 16:28:50] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/tkmedia/public_html/calloptimizer.com/home_noinvitations_avail_all_sent.php:1) in /home/tkmedia/public_html/calloptimizer.com/auth.php on line 3
+[03-Jan-2011 11:23:39] PHP Parse error:  syntax error, unexpected '<' in /home/tkmedia/public_html/calloptimizer.com/create_sent_invite.php on line 43
+[03-Jan-2011 11:24:17] PHP Parse error:  syntax error, unexpected '}' in /home/tkmedia/public_html/calloptimizer.com/create_sent_invite.php on line 55
+[03-Jan-2011 11:26:22] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 1 cannot commit transaction - SQL statements in progress' in /home/tkmedia/public_html/calloptimizer.com/create_account.php:37
+Stack trace:
+#0 /home/tkmedia/public_html/calloptimizer.com/create_account.php(37): PDO->commit()
+#1 {main}
+  thrown in /home/tkmedia/public_html/calloptimizer.com/create_account.php on line 37

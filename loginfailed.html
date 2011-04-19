@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+
+	<title>signin</title>
+         <link rel="stylesheet" type="text/css" media="screen" href="screen.css"></link>
+
+</head>
+<body>
+<div id="wrapper">
+<div id="logininfo">
+<p> you are not logged in </p>
+</div>
+
+<div id="header" class="clearFloat">
+<h1>Welcome to thimbl me</h1>
+</div>
+<div id="content" class="clearFloat" >
+<form id="signin" action="authentication.php" method="POST">
+<fieldset>
+<legend> Signin </legend>
+<div id="center">
+<p> Your login failed please verify username and password and try again to login</p>
+<label> Username: </label>
+<input type="text" id="username" name="username" value="" />
+<label> Password: <label>
+<input class="clearFloat" type="password" id="pass" name="pass" value="Ajouter" />
+<p><a href="create_account_link.php"> create an account </a>
+<input type="submit" id="submit" value="login"/></p>
+</div>
+</fieldset>
+</form>
+</div>
+</div>
+
+</body>
+</html>

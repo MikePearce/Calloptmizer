@@ -1,0 +1,134 @@
+
+body { border-top: 10px solid #980000;
+	background: #fff;
+	color: #333;
+  	font:300 14px/18.0px 'Helvetica','Verdana','Arial' , 'Sans-serif', 	sans-serif; 
+
+}
+
+.center {text-align: center;}
+
+
+#wrapper {width: 750px;
+margin:50px auto;}
+
+#header {height: 50px;
+background-color: #c6c3b5;
+padding: 5px 10px 0 10px;
+margin-bottom: 20px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+}
+
+#logininfo {float:right;}
+
+
+#header h1 {width: 49%;
+font-size: 24px;
+float:left;
+font-weight: bold;
+color: #980000;
+
+}
+
+
+.box {padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #c6c3b5;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;}
+
+#accountdetails {padding: 10px 10px 20px 10px;
+margin-bottom: 20px;
+border: 1px solid #c6c3b5;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;}
+
+#accountdetails input {text-align:center; 
+padding: 3px 0;
+width: 50%;}
+
+.boxleft {width: 48%;
+float: left;}
+
+
+.boxright  {width: 48%;
+float: right;}
+.center {width: 50%;
+margin: 0 auto;
+padding:10px;
+border: 1px solid #c6c3b5;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+}
+
+#signin, #invite {width: 300px;
+margin: 30px auto;
+}
+
+legend {font-weight: bold;}
+
+label {display:block;
+width:100%;
+text-align: left;
+}
+
+#username, #pass, #repass, #code, #name {width: 100%;}
+
+#submit {display:block;
+width: 50%;
+margin: 30px 0;
+}
+
+.InputInvite {margin-left: 0px;
+width: 30px;
+text-align:center;color: #980000;
+border: none;
+}
+
+#invitation h2 {margin: 20px 0;}
+
+#invite fieldset  {padding: 0px;
+width: 300px;
+border: none;}
+#ok {margin: 0 auto;}
+#signin fieldset {margin: 0 auto;
+padding: 20px;
+border: 1px solid #c6c3b5;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+text-align:center;}
+#signin label {margin-top: 10px;}
+
+#InviteSent {margin: 0 0;
+text-align:left;}
+
+.clearFloat {clear:both;}
+
+#message {width: 100%;
+height: 50px}
+
+
+table {width: 100%;
+font-size: 12px;
+border: 1px solid #c6c3b5;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+text-align:center;
+}
+
+tr td {padding: 3px 0;}
+
+
+#status tr:hover {background-color: #c4c4c4;}
+tr th {background-color: #fff;}
+
+
+
+
+
+
+
+
+
+
